@@ -20,19 +20,40 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2 {
             color: #333;
             margin-bottom: 1rem;
         }
         p {
             color: #666;
         }
+        section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to New Society</h1>
-        <p>This is a test page for our new project.</p>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a forward-thinking organization dedicated to creating positive change in our community. Our team consists of passionate individuals working together to make a difference.</p>
+        </section>
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>Our mission is to foster innovation and collaboration while building a more inclusive and sustainable future for everyone. We believe in the power of community-driven initiatives.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: info@newsociety.org<br>
+Phone: (555) 123-4567<br>
+Address: 123 Innovation Street, Tech City, TC 12345</p>
+        </section>
     </div>
 </body>
 </html>
